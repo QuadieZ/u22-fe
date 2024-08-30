@@ -50,7 +50,7 @@ export const Home = () => {
       const formData = new FormData();
       formData.append("file", file);
       axios
-        .post("https://manga-senseii.onrender.com/upload-pdf", formData, {
+        .post("https://manga-senseii.onrender.com/upload-pdf/", formData, {
           headers: {
             "Content-Type": "multipart/form-data",
             "Access-Control-Allow-Origin": "*",
